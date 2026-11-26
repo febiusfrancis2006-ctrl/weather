@@ -1,0 +1,54 @@
+body {
+  background: #fff8e7;
+  font-family: Arial;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #8b4513;
+  text-align: center;
+}
+
+.search-section {
+  text-align: center;
+  margin: 20px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 6px;
+}
+
+button {
+  background: #e87524;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.current-weather,
+.forecast-section {
+  padding: 20px;
+  margin: 20px 0;
+  background: white;
+  border: 1px solid #f2c879;
+  border-radius: 10px;
+}
+
+.forecast-section > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.forecast-section > div > div {
+  background: #ffe7a8;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
